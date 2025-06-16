@@ -18,6 +18,15 @@ I'm **Sri Vignesh K.V.**, a DevOps enthusiast with a background in Mechanical En
 - 🤖 **Zoho Invoice Automation** → Automated invoice + email flow via Zoho Books & Flow
 </details>
 
+## 📊 Medusa CI/CD Flow
+
+```mermaid
+graph TD
+  A[Push Code to GitHub] --> B[Jenkins Trigger]
+  B --> C[Build Docker Image]
+  C --> D[Push to DockerHub]
+  D --> E[Deploy on AWS EC2]
+
 <details>
 <summary>🛠 Tech Stack</summary>
 
