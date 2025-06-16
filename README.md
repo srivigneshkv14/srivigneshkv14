@@ -1,16 +1,29 @@
 ## Hi there 👋
+<details>
+<summary>📌 About Me</summary>
 
-<!--
-**srivigneshkv14/srivigneshkv14** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm **Sri Vignesh K.V.**, a DevOps enthusiast with a background in Mechanical Engineering and hands-on experience in:
 
-Here are some ideas to get you started:
+- CI/CD with Jenkins & GitHub Actions
+- AWS Cloud (EC2, ECS, Fargate)
+- Infrastructure as Code (Terraform)
+- Dockerized deployments
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</details>
+
+<details>
+<summary>🚀 Projects</summary>
+
+- 🔁 **CI/CD Pipeline** → [Medusa Deployment](https://github.com/srivigneshkv14/medusa-application)
+- 🤖 **Zoho Invoice Automation** → Automated invoice + email flow via Zoho Books & Flow
+</details>
+
+<details>
+<summary>🛠 Tech Stack</summary>
+
+![Docker](https://img.shields.io/badge/-Docker-blue?logo=docker)
+![Terraform](https://img.shields.io/badge/-Terraform-5F43E9?logo=terraform)
+![AWS](https://img.shields.io/badge/-AWS-orange?logo=amazon-aws)
+![Jenkins](https://img.shields.io/badge/-Jenkins-black?logo=jenkins)
+![Linux](https://img.shields.io/badge/-Linux-black?logo=linux)
+</details>
