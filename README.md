@@ -5,7 +5,7 @@
 I'm **Sri Vignesh K.V.**, a DevOps enthusiast with a background in Mechanical Engineering and hands-on experience in:
 
 - CI/CD with Jenkins & GitHub Actions
-- AWS Cloud (EC2, ECS, Fargate)
+- AWS Cloud (EC2, ECS, EBS, VPC, ELB and S3)
 - Infrastructure as Code (Terraform)
 - Dockerized deployments
 
