@@ -4,7 +4,7 @@
 🚀 Passionate about Cloud Infrastructure, Automation & Continuous Delivery
 
 I'm focused on building robust CI/CD pipelines, working with AWS, Docker, Jenkins, and modern DevOps tooling to deploy and scale applications.  
-I believe in continuous learning and love solving real-world engineering problems with automation and cloud-native technologies.
+I believe in continuous learning and love solving real-world engineering problems with automation.
 
 ---
 
