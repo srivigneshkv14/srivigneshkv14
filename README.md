@@ -1,28 +1,56 @@
+# 👋 Hello, I'm Sri Vignesh K.V.
+
+🎓 Mechanical Engineering Graduate | 🛠️ Cloud DevOps Intern @ Abhyaz  
+🚀 Passionate about Cloud Infrastructure, Automation & Continuous Delivery
+
+I'm focused on building robust CI/CD pipelines, working with AWS, Docker, Jenkins, and modern DevOps tooling to deploy and scale applications.  
+I believe in continuous learning and love solving real-world engineering problems with automation and cloud-native technologies.
+
+---
+
+## 🧰 Tech Stack & Tools
+
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+---
+
+## 🌟 Featured Projects
+
 <details>
-<summary>📌 About Me</summary>
+<summary>🔁 CI/CD Pipeline for Node.js App (Medusa)</summary>
 
-I'm **Sri Vignesh K.V.**, a DevOps enthusiast with a background in Mechanical Engineering and hands-on experience in:
+A complete CI/CD workflow using **Jenkins**, **Docker**, and **AWS EC2** to automate build, test, and deployment of a Node.js application.
 
-- CI/CD with Jenkins & GitHub Actions
-- AWS Cloud (EC2, ECS, EBS, VPC, ELB and S3)
-- Infrastructure as Code (Terraform)
-- Dockerized deployments
+- ✅ Built custom Jenkins pipeline
+- ✅ Containerized the app with Docker
+- ✅ Hosted on Amazon EC2
+
+🔗 [GitHub Repo](https://github.com/srivigneshkv14/medusa-application)
 
 </details>
 
 <details>
-<summary>🚀 Projects</summary>
+<summary>🤖 Invoice Automation with Zoho Flow</summary>
 
-- 🔁 **CI/CD Pipeline** → [Medusa Deployment](https://github.com/srivigneshkv14/medusa-application)
-- 🤖 **Zoho Invoice Automation** → Automated invoice + email flow via Zoho Books & Flow
+Automated invoice generation and email notifications using **Zoho Books** and **Zoho Flow** integration.
+
+- 📩 Invoice created in Zoho Books triggers email
+- 🔁 Integrated using Zoho Flow custom workflows
+
 </details>
 
-<details>
-<summary>🛠 Tech Stack</summary>
+---
 
-![Docker](https://img.shields.io/badge/-Docker-blue?logo=docker)
-![Terraform](https://img.shields.io/badge/-Terraform-5F43E9?logo=terraform)
-![AWS](https://img.shields.io/badge/-AWS-orange?logo=amazon-aws)
-![Jenkins](https://img.shields.io/badge/-Jenkins-black?logo=jenkins)
-![Linux](https://img.shields.io/badge/-Linux-black?logo=linux)
-</details>
+## 📊 CI/CD Pipeline Flow (Medusa)
+
+```mermaid
+graph TD
+  A[Push Code to GitHub] --> B[Jenkins Triggered]
+  B --> C[Docker Build]
+  C --> D[Push to DockerHub]
+  D --> E[Deploy to AWS EC2]
